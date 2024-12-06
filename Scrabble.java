@@ -114,7 +114,7 @@ public class Scrabble {
 				} else {
 					int points = wordScore(word);
 					score += points;
-					System.out.println(word + " earned " + points + " points. Score: " + score + " points");
+					System.out.println(word + " earned " + points + " points. Score: " + score + " points\n");
 					hand = MyString.remove(hand, word);
 				}
 			}
@@ -136,7 +136,7 @@ public class Scrabble {
 		In in = new In();
 
 		while(true) {
-			System.out.println("Enter n to deal a new hand, or e to end the game:\n");
+			System.out.println("Enter n to deal a new hand, or e to end the game:");
 			// Gets the user's input, which is all the characters entered by 
 			// the user until the user enter the ENTER character.
 			String input = in.readString();
