@@ -136,7 +136,7 @@ public class Scrabble {
 		In in = new In();
 
 		while(true) {
-			System.out.println("Enter n to deal a new hand, or e to end the game:");
+			System.out.println("Enter n to deal a new hand, or e to end the game:\n");
 			// Gets the user's input, which is all the characters entered by 
 			// the user until the user enter the ENTER character.
 			String input = in.readString();
